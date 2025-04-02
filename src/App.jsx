@@ -4,7 +4,7 @@ import TaskForm from "./Components/TaskForm";
 import TaskList from "./Components/TaskList";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/tasks"; // Backend URL
+const API_URL = "https://todo-backend-1-5g7n.onrender.com/api/tasks"; // Backend URL
 
 function App() {
   const [tasks, setTasks] = useState([]);
